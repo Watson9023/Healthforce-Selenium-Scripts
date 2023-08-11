@@ -1,0 +1,20 @@
+Bug Report: Incorrect Status Code Returned by API
+
+Description:
+During testing, it was observed that the API call to calculate the factorial returns a status code of 500 instead of the expected 200.
+
+Steps to Reproduce:
+1. Open the web application.
+2. Input the number "7" into the input field.
+3. Click the "Calculate" button.
+
+Expected Result:
+The API call should return a status code of 200, indicating a successful request.
+
+Actual Result:
+The API call returns a status code of 500.
+
+Additional Information:
+- URL: http://localhost:6464/factorial
+- Method: POST
+- Payload: {"number": 7}

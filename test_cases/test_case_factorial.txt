@@ -1,0 +1,22 @@
+Test Case: Factorial Calculation
+
+Objective: To verify that the web application correctly calculates the factorial of a given number.
+
+Steps:
+1. Open the web application.
+2. Input the number "7" into the input field.
+3. Click the "Calculate" button.
+4. Verify that the calculated result is displayed as "5040".
+
+Expected Result:
+The calculated result should match the expected factorial value of 7, which is 5040.
+
+Test Data:
+Number: 7
+
+Test Environment:
+Browser: Chrome
+
+Preconditions:
+- The web application is accessible.
+- The input field and "Calculate" button are present on the page.
